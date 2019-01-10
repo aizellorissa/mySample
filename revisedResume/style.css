@@ -1,0 +1,63 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius:100%;
+    box-shadow: 0 20px 30px -10px #000000;
+}
+
+h1,h4{
+    margin:0px;
+}
+
+body{
+    margin: 10px 200px 0 200px;
+    padding-bottom:50px;
+}
+
+p{
+    text-align: justify;
+}
+
+#intro{
+    text-align: center;
+    background-color: #E0EEEE;
+    padding-top: 10px;
+}
+
+.sub-heading{
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #528B8B;
+    width:100%;
+}
+
+.vertical {
+    border-right: 1px solid #000000;
+}
+
+#skills{
+    margin:auto;
+}
+
+.personal{
+ list-style: none;
+}
+
+#profile{
+    width:100%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      margin: 10px 0px 0px 10px;
+    }
+    #profile{
+        display: none;
+    }
+
+  }
+
+  h1:hover,h4:hover{
+      color: #C71585
+  }
